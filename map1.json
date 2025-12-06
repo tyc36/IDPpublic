@@ -1,0 +1,80 @@
+{
+  "CW": [
+    {"id": 1, "pattern": "11", "type": "start", "action": "forward"},
+    {"id": 2, "pattern": "11", "type": "start_loop", "action": "turn_left"},
+    
+    {"id": 3, "pattern": "10", "type": "green_unload", "action": "forward", "optional_action": "turn_left"},
+    
+    {"id": 4, "pattern": "11", "type": "blue_unload", "action": "turn_right", "optional_action": "turn_left"},
+    
+    {"id": 5, "pattern": "01", "type": "loading_bay", "action": "forward", "optional_action": "turn_right"},
+    {"id": 6, "pattern": "01", "type": "loading_bay", "action": "forward", "optional_action": "turn_right"},
+    {"id": 7, "pattern": "01", "type": "loading_bay", "action": "forward", "optional_action": "turn_right"},
+    {"id": 8, "pattern": "01", "type": "loading_bay", "action": "forward", "optional_action": "turn_right"},
+    {"id": 9, "pattern": "01", "type": "loading_bay", "action": "forward", "optional_action": "turn_right"},
+    {"id": 10, "pattern": "01", "type": "loading_bay", "action": "forward", "optional_action": "turn_right"},
+    
+    {"id": 11, "pattern": "11", "type": "indicator", "action": "forward"},
+    
+    {"id": 12, "pattern": "01", "type": "right_turn", "action": "turn_right"},
+    {"id": 13, "pattern": "01", "type": "upper_loading", "action": "forward", "optional_action": "turn_right"},
+    {"id": 14, "pattern": "01", "type": "right_turn", "action": "turn_right"},
+    
+    {"id": 15, "pattern": "11", "type": "indicator", "action": "forward"},
+    
+    {"id": 16, "pattern": "01", "type": "loading_bay", "action": "forward", "optional_action": "turn_right"},
+    {"id": 17, "pattern": "01", "type": "loading_bay", "action": "forward", "optional_action": "turn_right"},
+    {"id": 18, "pattern": "01", "type": "loading_bay", "action": "forward", "optional_action": "turn_right"},
+    {"id": 19, "pattern": "01", "type": "loading_bay", "action": "forward", "optional_action": "turn_right"},
+    {"id": 20, "pattern": "01", "type": "loading_bay", "action": "forward", "optional_action": "turn_right"},
+    {"id": 21, "pattern": "01", "type": "loading_bay", "action": "forward", "optional_action": "turn_right"},
+    
+    {"id": 22, "pattern": "01", "type": "red_unload", "action": "turn_right", "optional_action": "forward"},
+    
+    {"id": 23, "pattern": "10", "type": "yellow_unload", "action": "forward", "optional_action": "turn_left"},
+    
+    {"id": 24, "pattern": "10", "type": "start_loop", "action": "forward", "optional_action": "turn_left"},
+    {"id": 25, "pattern": "11", "type": "end", "action": "forward", "optional_action": "turn_left"}
+  ],
+
+
+  "CCW": [
+    {"id": 1, "pattern": "11", "type": "start", "action": "forward"},
+    {"id": 2, "pattern": "11", "type": "start_loop", "action": "turn_right"},
+    
+    {"id": 3, "pattern": "01", "type": "yellow_unload", "action": "forward", "optional_action": "turn_right"},
+    
+    {"id": 4, "pattern": "11", "type": "red_unload", "action": "turn_left", "optional_action": "turn_right"},
+    
+    {"id": 5, "pattern": "10", "type": "loading_bay", "action": "forward", "optional_action": "turn_left"},
+    {"id": 6, "pattern": "10", "type": "loading_bay", "action": "forward", "optional_action": "turn_left"},
+    {"id": 7, "pattern": "10", "type": "loading_bay", "action": "forward", "optional_action": "turn_left"},
+    {"id": 8, "pattern": "10", "type": "loading_bay", "action": "forward", "optional_action": "turn_left"},
+    {"id": 9, "pattern": "10", "type": "loading_bay", "action": "forward", "optional_action": "turn_left"},
+    {"id": 10, "pattern": "10", "type": "loading_bay", "action": "forward", "optional_action": "turn_left"},
+    
+    {"id": 11, "pattern": "11", "type": "indicator", "action": "forward"},
+
+    {"id": 12, "pattern": "10", "type": "left_turn", "action": "turn_left"},
+    {"id": 13, "pattern": "10", "type": "upper_loading", "action": "forward", "optional_action": "turn_left"},
+    {"id": 14, "pattern": "10", "type": "left_turn", "action": "turn_left"},
+    
+    {"id": 15, "pattern": "11", "type": "indicator", "action": "forward"},
+    
+    {"id": 16, "pattern": "10", "type": "loading_bay", "action": "forward", "optional_action": "turn_left"},
+    {"id": 17, "pattern": "10", "type": "loading_bay", "action": "forward", "optional_action": "turn_left"},
+    {"id": 18, "pattern": "10", "type": "loading_bay", "action": "forward", "optional_action": "turn_left"},
+    {"id": 19, "pattern": "10", "type": "loading_bay", "action": "forward", "optional_action": "turn_left"},
+    {"id": 20, "pattern": "10", "type": "loading_bay", "action": "forward", "optional_action": "turn_left"},
+    {"id": 21, "pattern": "10", "type": "loading_bay", "action": "forward", "optional_action": "turn_left"},
+    
+    {"id": 22, "pattern": "10", "type": "blue_unload", "action": "turn_left", "optional_action": "forward"},
+
+    {"id": 23, "pattern": "01", "type": "green_unload", "action": "forward", "optional_action": "turn_right"},
+    
+    {"id": 24, "pattern": "01", "type": "start_loop", "action": "forward", "optional_action": "turn_right"},
+    {"id": 25, "pattern": "11", "type": "end", "action": "forward", "optional_action":"turn_right"}
+  ],
+  
+  "loop": true
+}

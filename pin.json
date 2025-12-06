@@ -1,0 +1,21 @@
+{
+    "motor_left_pin":7,
+    "motor_left_pwm":6,
+    "motor_right_pin":4,
+    "motor_right_pwm":5,
+
+
+    "line_sensor_left_pin":9,
+    "line_sensor_midL_pin":13,
+    "line_sensor_midR_pin":12,
+    "line_sensor_right_pin":11,
+    "ultrasonic_sensor_pin": 28,
+    "push_button_pin":10,
+    "color_sensor_SDA_pin":26,
+    "color_sensor_SCL_pin": 27,
+    "TMFR_SCL_pin": 17,
+    "TMFR_SDA_pin": 16,
+    "Yellow_LED_pin": 22,  
+    "Red_LED_pin": 8
+
+}
